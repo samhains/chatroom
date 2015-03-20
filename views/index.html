@@ -14,7 +14,14 @@
     </style>
   </head>
   <body>
-    <ul id="messages"></ul>
+      {% block content %}
+    <ul id="messages">
+
+        {% for message in messages %}
+        <li>{{ message.body }}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>

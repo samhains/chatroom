@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json socket-chat-example@0.0.1 No repository field.
+5 warn package.json socket-chat-example@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/zazou/Code/chatroom', [ 'express', 'socket.io' ] ]
+8 info preinstall socket-chat-example@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'express@4.10.2', null ]
+11 verbose cache add name=undefined spec="express@4.10.2" args=["express@4.10.2",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'express@4.10.2',
+12 verbose parsed url   path: 'express@4.10.2',
+12 verbose parsed url   href: 'express@4.10.2' }
+13 verbose cache add [ 'socket.io@1.2.0', null ]
+14 verbose cache add name=undefined spec="socket.io@1.2.0" args=["socket.io@1.2.0",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'socket.io@1.2.0',
+15 verbose parsed url   path: 'socket.io@1.2.0',
+15 verbose parsed url   href: 'socket.io@1.2.0' }
+16 verbose cache add name="express" spec="4.10.2" args=["express","4.10.2"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '4.10.2',
+17 verbose parsed url   path: '4.10.2',
+17 verbose parsed url   href: '4.10.2' }
+18 verbose addNamed [ 'express', '4.10.2' ]
+19 verbose addNamed [ '4.10.2', '4.10.2' ]
+20 verbose cache add name="socket.io" spec="1.2.0" args=["socket.io","1.2.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '1.2.0',
+21 verbose parsed url   path: '1.2.0',
+21 verbose parsed url   href: '1.2.0' }
+22 verbose addNamed [ 'socket.io', '1.2.0' ]
+23 verbose addNamed [ '1.2.0', '1.2.0' ]
+24 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+25 verbose lock express@4.10.2 /Users/zazou/.npm/787e98b4-express-4-10-2.lock
+26 silly lockFile 1b93a138-socket-io-1-2-0 socket.io@1.2.0
+27 verbose lock socket.io@1.2.0 /Users/zazou/.npm/1b93a138-socket-io-1-2-0.lock
+28 verbose request where is /socket.io
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 9163c8ebb1ea0f3f
+31 verbose url raw /socket.io
+32 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+33 verbose url resolved https://registry.npmjs.org/socket.io
+34 verbose request where is https://registry.npmjs.org/socket.io
+35 info trying registry request attempt 1 at 10:46:15
+36 verbose etag "B99XZPS4XOTTPLW9WBAUK8ESB"
+37 http GET https://registry.npmjs.org/socket.io
+38 verbose request where is /express
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /express
+41 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+42 verbose url resolved https://registry.npmjs.org/express
+43 verbose request where is https://registry.npmjs.org/express
+44 info trying registry request attempt 1 at 10:46:15
+45 verbose etag "2SRIVNNDM4TG0M05JTW9O6718"
+46 http GET https://registry.npmjs.org/express
+47 http 304 https://registry.npmjs.org/express
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Fri, 20 Mar 2015 14:46:15 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Fri, 20 Mar 2015 14:45:54 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"2SRIVNNDM4TG0M05JTW9O6718"',
+48 silly registry.get     age: '57',
+48 silly registry.get     'x-served-by': 'cache-jfk1033-JFK',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2',
+48 silly registry.get     'x-timer': 'S1426862775.645589,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/express from cache
+50 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+51 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+52 http 200 https://registry.npmjs.org/socket.io
+53 silly registry.get cb [ 200,
+53 silly registry.get   { date: 'Fri, 20 Mar 2015 14:46:15 GMT',
+53 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 silly registry.get     etag: '"9K3H9K44ZJKYBK1H9WAY0AZ65"',
+53 silly registry.get     'content-type': 'application/json',
+53 silly registry.get     'cache-control': 'max-age=60',
+53 silly registry.get     'content-length': '110847',
+53 silly registry.get     'accept-ranges': 'bytes',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     age: '5',
+53 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+53 silly registry.get     'x-cache': 'HIT',
+53 silly registry.get     'x-cache-hits': '1',
+53 silly registry.get     'x-timer': 'S1426862775.637990,VS0,VE0',
+53 silly registry.get     vary: 'Accept',
+53 silly registry.get     'keep-alive': 'timeout=10, max=50',
+53 silly registry.get     connection: 'Keep-Alive' } ]
+54 silly lockFile e37968a4-rg-socket-io-socket-io-1-2-0-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+55 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz /Users/zazou/.npm/e37968a4-rg-socket-io-socket-io-1-2-0-tgz.lock
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz',
+56 verbose addRemoteTarball   '02f00ffc24626294f46924d4c25ce35a9b940789' ]
+57 info retry fetch attempt 1 at 10:46:15
+58 verbose fetch to= /var/folders/qw/7c_7hq3d003g6rr1xyq419zw0000gp/T/npm-76960-bL7pTxTa/registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+59 http GET https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+60 http 200 https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+61 silly lockFile e37968a4-rg-socket-io-socket-io-1-2-0-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+62 silly lockFile e37968a4-rg-socket-io-socket-io-1-2-0-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.0.tgz
+63 silly lockFile 1b93a138-socket-io-1-2-0 socket.io@1.2.0
+64 silly lockFile 1b93a138-socket-io-1-2-0 socket.io@1.2.0
+65 error Error: EACCES, mkdir '/Users/zazou/.npm/socket.io/1.2.0'
+65 error  { [Error: EACCES, mkdir '/Users/zazou/.npm/socket.io/1.2.0']
+65 error   errno: 3,
+65 error   code: 'EACCES',
+65 error   path: '/Users/zazou/.npm/socket.io/1.2.0',
+65 error   parent: 'socket-chat-example' }
+66 error Please try running this command again as root/Administrator.
+67 error System Darwin 14.1.0
+68 error command "node" "/usr/local/bin/npm" "install"
+69 error cwd /Users/zazou/Code/chatroom
+70 error node -v v0.10.35
+71 error npm -v 1.4.28
+72 error path /Users/zazou/.npm/socket.io/1.2.0
+73 error code EACCES
+74 error errno 3
+75 error stack Error: EACCES, mkdir '/Users/zazou/.npm/socket.io/1.2.0'
+76 verbose exit [ 3, true ]
